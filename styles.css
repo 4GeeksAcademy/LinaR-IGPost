@@ -1,0 +1,110 @@
+* {
+    font-family: "Sansita", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.post {
+    flex-direction: column;
+    height: 700px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.header2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon-css {
+   font-size: 1.7em;
+   padding: 5px;
+} 
+
+.text {
+    height: 80%;
+   width: 85%;
+   align-self: center;
+   
+}
+
+.punto {
+    margin: 8px 15px 8px 0px;
+    align-self: end;
+    font-size: 1.5em;
+
+}
+
+img {
+    width: 100%;
+    height: 60%;
+    display: flex
+    
+
+}
+
+.contenido {
+    padding: 8px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+span.heart {
+
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+
+}
+
+span.comment {
+   height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+
+}
+
+span.paper {
+   height: 80%;
+   width: 80%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+
+}
+
+span.save {
+    margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+    justify-content: flex-end
+}
+
+.content-body {
+    font-size: 14px;
+    
+}
